@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>MVCWebSite.Test</RootNamespace>
+    <AssemblyName>MVCWebSite.Test</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.14.0-alpha-784" />
+    <PackageReference Include="nunit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.15.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\11-MVCWebSite\11_MVCWebSite.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Fluent.Architecture.Core" Version="2.0.1.7-beta01" />
+    <PackageReference Update="Fluent.Architecture.Core.Doc" Version="2.0.1.7-beta01" />
+    <PackageReference Update="Fluent.Architecture.EntityFramework" Version="2.0.1.7-beta01" />
+    <PackageReference Update="Fluent.Architecture.EntityFramework.SqLite" Version="2.0.1.7-beta01" />
+  </ItemGroup>
+
+</Project>

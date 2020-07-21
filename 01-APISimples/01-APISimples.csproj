@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dn32.infra.Doc" Version="0.0.0.30" />
+    <PackageReference Include="dn32.infra.EntityFramework.SqLite" Version="0.0.0.30" />
+  </ItemGroup>
+
+
+</Project>

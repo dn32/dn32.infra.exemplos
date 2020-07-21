@@ -1,0 +1,15 @@
+<Project>
+
+  <ItemGroup>
+   <!-- <PackageReference Include="Fluent.Architecture.Core" Version="2.0.1" />
+    <PackageReference Include="Fluent.Architecture.Core.Doc" Version="2.0.1" />
+    <PackageReference Include="Fluent.Architecture.EntityFramework" Version="2.0.1" />
+    <PackageReference Include="Fluent.Architecture.EntityFramework.SqLite" Version="2.0.1" /> -->
+
+    <PackageReference Include="dn32.infra.Doc" Version="0.0.0.30" />
+    <PackageReference Include="dn32.infra.EntityFramework.SqLite" Version="0.0.0.30" />
+ 
+   </ItemGroup>
+
+
+</Project>
