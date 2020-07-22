@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
-[Route("/api/[Controller]/[Action]")]
 public class UsuarioController : DnApiController<Usuario>
 {
     [HttpGet]
