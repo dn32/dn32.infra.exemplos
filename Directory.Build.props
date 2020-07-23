@@ -4,9 +4,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <PackageReference Include="dn32.infra.Doc" Version="0.0.0.38" />
     <PackageReference Include="dn32.infra.EntityFramework.SqLite" Version="0.0.0.38" />
-  </ItemGroup>
+  </ItemGroup>-->
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\dn32.infra\dn32.infra.doc\dn32.infra.Doc.csproj" />
+    <ProjectReference Include="..\..\dn32.infra\dn32.infra.entityFramework.sqLite\dn32.infra.EntityFramework.SqLite.csproj" />
+  </ItemGroup>
+  
 </Project>
