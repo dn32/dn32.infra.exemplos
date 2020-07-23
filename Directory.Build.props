@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="dn32.infra.Doc" Version="0.0.0.34" />
-    <PackageReference Include="dn32.infra.EntityFramework.SqLite" Version="0.0.0.34" />
+    <PackageReference Include="dn32.infra.Doc" Version="0.0.0.38" />
+    <PackageReference Include="dn32.infra.EntityFramework.SqLite" Version="0.0.0.38" />
   </ItemGroup>
 
 </Project>
