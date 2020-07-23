@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020-ControllerCustomizado", "020-ControllerCustomizado\020-ControllerCustomizado.csproj", "{D776B74D-34DB-442F-AD2D-B77F94E81854}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Controller", "020-Controller\02-Controller.csproj", "{D776B74D-34DB-442F-AD2D-B77F94E81854}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010-APISimples", "010-APISimples\010-APISimples.csproj", "{5A80B37A-2B54-48A6-9E02-DB482FF0DC9C}"
 EndProject

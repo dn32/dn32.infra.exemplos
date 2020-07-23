@@ -26,4 +26,10 @@ public class ClienteController : DnController<Cliente>
         var spec = CriarEspecificacao<DnTudoEspecificacao<Cliente>>();
         return await Servico.ListarAsync(spec);
     }
+
+    [HttpGet]
+    public async Task<bool> VerificarSeClienteExistePeloId(int clienteId)
+    {
+        return await Servico.ExisteAsync(new Cliente { Id = clienteId });
+    }
 }
