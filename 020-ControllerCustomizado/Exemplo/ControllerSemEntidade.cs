@@ -8,7 +8,7 @@ public class RelatorioController : DnControllerDeServico<ServicoDeRelatorio>
     }
 }
 
-public class ServicoDeRelatorio : DnServicoTransacionalBase
+public class ServicoDeRelatorio : DnServicoTransacional
 {
     public int ObterQuantidade()
     {

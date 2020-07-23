@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020-ControllerCustomizado",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010-APISimples", "010-APISimples\010-APISimples.csproj", "{5A80B37A-2B54-48A6-9E02-DB482FF0DC9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "030-Servico", "030-Servico\030-Servico.csproj", "{7AE29CBF-B0DD-4844-ABB5-EF8F9CEA028D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{5A80B37A-2B54-48A6-9E02-DB482FF0DC9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A80B37A-2B54-48A6-9E02-DB482FF0DC9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A80B37A-2B54-48A6-9E02-DB482FF0DC9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AE29CBF-B0DD-4844-ABB5-EF8F9CEA028D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE29CBF-B0DD-4844-ABB5-EF8F9CEA028D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE29CBF-B0DD-4844-ABB5-EF8F9CEA028D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE29CBF-B0DD-4844-ABB5-EF8F9CEA028D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
