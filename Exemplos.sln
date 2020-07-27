@@ -30,6 +30,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "040-Paginacao", "040-Pagina
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "050-Especificacao", "050-Especificacao\050-Especificacao.csproj", "{926B3CC3-9AED-4DBA-9BA1-AF3A42B7C92F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "090-Autenticacao", "090-Autenticacao\090-Autenticacao.csproj", "{AEF32C8C-DF35-4DFA-B88F-9F06326B4869}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{926B3CC3-9AED-4DBA-9BA1-AF3A42B7C92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{926B3CC3-9AED-4DBA-9BA1-AF3A42B7C92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{926B3CC3-9AED-4DBA-9BA1-AF3A42B7C92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF32C8C-DF35-4DFA-B88F-9F06326B4869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF32C8C-DF35-4DFA-B88F-9F06326B4869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF32C8C-DF35-4DFA-B88F-9F06326B4869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF32C8C-DF35-4DFA-B88F-9F06326B4869}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
